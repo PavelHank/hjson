@@ -3,7 +3,9 @@ parse json string hommization for golang. You can fetch any value by key path.
 
 # How To Install?
 
+```shell
 > go get github.com/PavelHank/hjson
+```
 
 # Example
 
@@ -39,7 +41,7 @@ We can achieve any json node by key path, there are some example to explain how 
 
 ## GetString
 
-```console
+```go
 import "github.com/PavelHank/hjson"
 
 func main(){
